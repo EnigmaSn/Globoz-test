@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	
+}
+
+.main {
+/*Основной раздел будет занимать все свободное место на странице*/
+	flex: 1 0 auto;
+	outline: 1px solid red;
+	background-color: #f2f2f2;
+}
+
+header {
+	display: flex;
+	outline: 1px solid red;
+	flex-direction: column;
+}
+
+footer {
+/*Футер будет занимать столько места по вертикали, сколько и должен и не пикселя больше */
+	flex: 0 0 auto;
+	outline: 1px solid yellow;
+}
