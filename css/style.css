@@ -6,24 +6,68 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	
+
+	background-color: #173f81;
+	color: #ffffff;
 }
 
-.main {
-/*Основной раздел будет занимать все свободное место на странице*/
+a {
+	text-decoration: none;
+}
+
+.container {
 	flex: 1 0 auto;
 	outline: 1px solid red;
-	background-color: #f2f2f2;
+	width: 1200px;
+	margin: 0 auto;
 }
 
-header {
-	display: flex;
+header {	
 	outline: 1px solid red;
+
+	display: flex;
+	flex-direction: row;
+}
+
+header a {
+	color: #ffffff;
+}
+
+.date-place {
 	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
 }
 
 footer {
 /*Футер будет занимать столько места по вертикали, сколько и должен и не пикселя больше */
 	flex: 0 0 auto;
 	outline: 1px solid yellow;
+	width: 1200px;
+	min-height: 193px;
+	margin: 0 auto;
+
+	/*почему не сработало?*/
+	flex-direction: row;
+}
+
+.contacts {
+	background-color: #222;
+	display: flex;
+	flex-direction: row;
+}
+
+.contact-info span {
+	display: block;
+}
+
+.contact-info li {
+	display: inline;
+	list-style-type: none;
+	/*откуда там отступ? не убирается*/
+	margin-left: 0px; 
+	padding-right: 40px;
 }
