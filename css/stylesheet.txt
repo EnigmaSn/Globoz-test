@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -10px;
+}
+
+.sprite-facebook-copy {
+    width: 41px;
+    height: 41px;
+    background-position: -62px -10px;
+}
+
+.sprite-geo {
+    width: 13px;
+    height: 19px;
+    background-position: -123px -10px;
+}
+
+.sprite-insta {
+    width: 32px;
+    height: 32px;
+    background-position: -156px -10px;
+}
+
+.sprite-insta-copy {
+    width: 41px;
+    height: 41px;
+    background-position: -208px -10px;
+}
+
+.sprite-mail {
+    width: 16px;
+    height: 12px;
+    background-position: -269px -10px;
+}
+
+.sprite-phone {
+    width: 15px;
+    height: 15px;
+    background-position: -305px -10px;
+}
+
+.sprite-skype {
+    width: 16px;
+    height: 16px;
+    background-position: -340px -10px;
+}
+
+.sprite-tw {
+    width: 32px;
+    height: 32px;
+    background-position: -376px -10px;
+}
+
+.sprite-tw-copy {
+    width: 41px;
+    height: 41px;
+    background-position: -428px -10px;
+}
+
+.sprite-vk {
+    width: 33px;
+    height: 33px;
+    background-position: -489px -10px;
+}
+
+.sprite-vk-copy {
+    width: 41px;
+    height: 41px;
+    background-position: -542px -10px;
+}
+
+.sprite-you {
+    width: 32px;
+    height: 32px;
+    background-position: -603px -10px;
+}
+
+.sprite-you-copy {
+    width: 41px;
+    height: 41px;
+    background-position: -655px -10px;
+}

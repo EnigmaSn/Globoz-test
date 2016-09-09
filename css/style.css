@@ -33,9 +33,87 @@ header a {
 	color: #ffffff;
 }
 
+.social-btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 32px;
+	height: 32px;
+	font-size: 0;
+	position: relative;
+}
+
+.social-btn::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+}
+
+.sprite-facebook::before {
+	width: 32px;
+  height: 32px;
+  background-position: -10px -10px;
+}
+
+.sprite-vk::before {
+    width: 33px;
+    height: 33px;
+    background-position: -489px -10px;
+}
+
+.sprite-tw::before {
+    width: 32px;
+    height: 32px;
+    background-position: -376px -10px;
+}
+
+.sprite-insta::before {
+    width: 32px;
+    height: 32px;
+    background-position: -156px -10px;
+}
+
+.sprite-you::before {
+    width: 32px;
+    height: 32px;
+    background-position: -603px -10px;
+}
+
 .date-place {
 	flex-direction: column;
 }
+
+.date {
+	display: block;
+	padding: 20px;
+	border: 2px solid rgba(255,255,255,0.5);
+}
+
+.place {
+	position: relative;
+
+}
+
+.place::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -20%;
+	transform: translate(-50%, -50%);
+	background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+}
+
+.sprite-geo::before {
+	width: 13px;
+  height: 19px;
+  background-position: -123px -10px;
+}
+
+
 
 main {
 	display: flex;
